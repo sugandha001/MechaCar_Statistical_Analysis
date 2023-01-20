@@ -31,9 +31,9 @@ The mult5iple R-squared value is 0.7149. This means that 71% of all mpg predicti
 ![Screenshot (212)](https://user-images.githubusercontent.com/112904905/213595691-47834601-3d7d-48fa-b4e9-470fb665c1cf.png)
 
 
-##Screenshots of total_summary and lot_summary dataframes addresses the following question:
+## Screenshots of total_summary and lot_summary dataframes addresses the following question:
 
-### The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+### 1. The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 Lot 1 has a variance on PSI of 1 and lot 2 has variance on PSI 7.4. Both these lots meet the design specification.
 Lot 3 on the other hand has a variance on PSI of 170. So, it does not meet the design specification.
 Together the variance on PSI is 62.29 which meets the design requirement.
@@ -48,6 +48,7 @@ We performed t-tests to determine if all manufacturing lots and each lot individ
 ![Screenshot (204)](https://user-images.githubusercontent.com/112904905/213596776-c1be6ef8-b8a3-4da1-b736-de8e0dae1fa3.png)
 
 NULL Hypothesis - There is no significant difference between the mean PSI of all manufacturing lots and individual lots with a polpulation mean of 1500 PSI.
+
 Alternate Hypothesis - There is a significant difference between the mean PSI of all manufacturing lots and individual lots with a polpulation mean of 1500 PSI.
 
 ### Result  - 
